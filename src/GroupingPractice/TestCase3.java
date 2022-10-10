@@ -31,4 +31,9 @@ public class TestCase3 {
 		System.out.println("Executing Test9");
 	}
 
+	@Test(groups= {"Functional", "Regression"})
+	public void Test10() {
+		System.out.println("This is modification for Github");
+	}
+
 }
